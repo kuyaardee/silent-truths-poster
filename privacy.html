@@ -31,6 +31,13 @@ uploads, used only to confirm that a newly uploaded video is live.</li>
 <p>The tool does not access any other user's data, does not collect information about viewers, and has no users other
 than the channel owner.</p>
 
+<h2>Facebook Page posting</h2>
+<p>After a video is published, the tool posts an image, a caption and a link to the video on the owner's own Facebook
+Page (Silent Truths), using a Page access token for that Page only (permissions: <code>pages_show_list</code>,
+<code>pages_read_engagement</code>, <code>pages_manage_posts</code>). It does not read or collect information about
+other people, followers or comments. The token is stored only on the owner's computer, and access can be removed at any
+time in Facebook's Settings → Business integrations.</p>
+
 <h2>How information is used, stored and shared</h2>
 <ul>
 <li>The authorization token and channel information are stored only on the owner's own computer and are used only to
